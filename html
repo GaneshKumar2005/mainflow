@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple webpage example using semantic HTML and CSS for styling.">
+    <title>Simple Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Simple Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>This is the home section of the webpage. Here you can find the introduction and latest updates.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>This section provides information about the purpose of this webpage and its content.</p>
+        </section>
+    </main>
+    <aside>
+        <h2>Related Links</h2>
+        <ul>
+            <li><a href="https://example.com">Example Link 1</a></li>
+            <li><a href="https://example.com">Example Link 2</a></li>
+        </ul>
+    </aside>
+    <footer>
+        <p>&copy; 2024 My Simple Webpage</p>
+    </footer>
+</body>
+</html>
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content */
+main {
+    margin-bottom: 20px;
+}
+
+main section {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    margin-bottom: 10px;
+}
+
+/* Aside */
+aside {
+    background: #e2e2e2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+aside h2 {
+    margin-bottom: 10px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    color: #35424a;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #e2e2e2;
+}
+
+footer p {
+    margin: 0;
+}
